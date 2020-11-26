@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/client-combined-3.141.59.jar!/" />
@@ -18,7 +18,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar!/" />
@@ -27,7 +27,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/libs/commons-exec-1.3.jar!/" />
@@ -36,7 +36,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/libs/guava-25.0-jre.jar!/" />
@@ -45,7 +45,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/libs/okhttp-3.11.0.jar!/" />
@@ -54,13 +54,29 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/libs/okio-1.14.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/libs/commons-exec-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/libs/byte-buddy-1.8.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/libs/okio-1.14.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/libs/okhttp-3.11.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/libs/guava-25.0-jre.jar!/" />
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/client-combined-3.141.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../selenium dependencies/libraries/client-combined-3.141.59-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
