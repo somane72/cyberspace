@@ -16,7 +16,6 @@ public class Usame {
 
         String actualYouTubeTitle =  driver.getTitle();
         String expectedYouTubeTitle = "youtube";
-
         if (actualYouTubeTitle.equals(expectedYouTubeTitle)){
             System.out.println("YouTube Title testi PASS");
         }else {
